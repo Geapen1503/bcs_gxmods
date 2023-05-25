@@ -1,0 +1,168 @@
+{
+    "manifest_version": 3,
+    "name": "Better Call Saul",
+    "description": "Its all good man",
+    "version": "1.2",
+    "icons":
+    {
+        "512": "better_call_saul_logo.png"
+    },
+    "developer":
+    {
+        "name": "alkudev"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/saul_car_wallpaper.jpg",
+                    "text_color": "#D9D6CC",
+                    "text_shadow": "#00FFFFFF",
+                    "first_frame": ""
+                },
+                "light":
+                {
+                    "image": "wallpaper/saul_car_wallpaper.jpg",
+                    "text_color": "#D9D6CC",
+                    "text_shadow": "#00FFFFFF",
+                    "first_frame": ""
+                }
+            },
+            "background_music":
+            [
+                "music/saul_main_theme.mp3"
+            ],
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/click_saul_bass.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/click_saul_bass.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/click_saul_bass.wav"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/click_saul_bass.wav"
+                ]
+            },
+            "browser_sounds":
+            {
+                "SWITCH_TOGGLE":
+                [
+                    "sounds/waltuh.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sounds/waltuh.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/waltuh.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/click_saul_bass.wav"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/click_saul_bass.wav"
+                ],
+                "CLICK":
+                [
+                    "sounds/waltuh.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sounds/yes_science.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sounds/yes_science.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sounds/waltuh.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sounds/yes_science.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sounds/yes_science.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sounds/waltuh.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sounds/waltuh.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 49,
+                        "s": 100,
+                        "l": 49
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 49,
+                        "s": 100,
+                        "l": 49
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 49,
+                        "s": 100,
+                        "l": 49
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 49,
+                        "s": 100,
+                        "l": 49
+                    }
+                }
+            },
+            "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/main.theme.css",
+                        "css/changecolors.css"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "8-Bit": "shaders/matrix.txt",
+                "8-Bitter": "shaders/wave.txt"
+            }
+        }
+    }
+}
